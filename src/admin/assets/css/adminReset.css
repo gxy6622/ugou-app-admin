@@ -1,0 +1,34 @@
+html, body { width: 100%; height: 100% }
+body { min-width: 1000px; min-height: 600px; }
+
+.el-tabs {
+	height:100%;
+	width:100%;
+	display: flex;
+	flex-direction: column;
+}
+.el-tabs__content {
+	flex-grow: 1;
+	overflow: auto;
+}
+.el-tabs__content>div {
+	height:100%;
+}
+
+
+
+/*element ui表格错位*/
+body .el-table th.gutter{
+	display: table-cell!important;
+}
+
+body .el-table colgroup.gutter{
+	display: table-cell!important;
+}
+.el-table .warning-row {
+	background: oldlace;
+}
+
+.el-table .success-row {
+	background: #f0f9eb;
+}
